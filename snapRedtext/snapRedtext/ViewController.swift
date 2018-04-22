@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let foundGlobalUser = UserDefaults.standard.object(forKey: "userID")as? Int {
+            GlobaluserID = foundGlobalUser
+            UserID.text = String(GlobaluserID)
+        }
         //UserID.delegate = (self as! UITextFieldDelegate)
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -34,7 +38,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func loadData(_ sender: UIButton) {
-        print(GlobaluserID)
+        UserDefaults.standard.set(GlobaluserID, forKey: "userID")
+        //print(GlobaluserID)
     }
     
 }

@@ -75,6 +75,6 @@ for user in users:
     msg += get_recFeed(user,users,userAry,photoAry)
     msg = msg[:-1]
     setData(userAry,user["userID"])
-    sendMsg(number,msg,photoAry)
+  #  sendMsg(number,msg,photoAry)
     print(msg)
 
