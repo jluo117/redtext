@@ -5,7 +5,8 @@
   		"number": "+14158109857",
   		"threads": [
   			"https://www.reddit.com/r/gaming/.json",
-  			"https://www.reddit.com/r/ProgrammerHumor/.json"
+  			"https://www.reddit.com/r/ProgrammerHumor/.json",
+  			"https://www.reddit.com/r/ffxiv/.json"
   		],
         "permaLinks":[
             "https://www.reddit.com//r/gaming/comments/8dxp14/get_the_fuck_outta_here/.json"
@@ -16,6 +17,7 @@
   		"userID": "2",
         "number": "+18583140004",
   		"threads":[
+  			"https://www.reddit.com/r/ProgrammerHumor/.json",
   			"https://www.reddit.com/r/PrequelMemes/.json",
   			"https://www.reddit.com/r/europe/.json"
   		],
